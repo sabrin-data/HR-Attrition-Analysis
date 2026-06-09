@@ -171,6 +171,6 @@ The following analyses were performed:
 
 # Author
 
-**Sabrin Kater**
+**Sabrin Khater**
 
 HR Attrition Analysis Project using Microsoft Excel.
