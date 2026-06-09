@@ -2,31 +2,33 @@
 
 ## Project Overview
 
-This project analyzes employee attrition using Microsoft Excel through data cleaning, feature engineering, KPI development, Pivot Tables, and dashboard visualization.
+This project analyzes employee attrition using Microsoft Excel.
 
-The goal is to identify the key factors affecting employee turnover and provide meaningful HR insights.
+The project focuses on identifying the factors affecting employee turnover through data cleaning, feature engineering, KPI development, Pivot Tables, and dashboard visualization.
 
 ---
 
-# Data Cleaning
+# Dataset Preparation
 
-The dataset was cleaned and prepared before analysis by:
+## Data Cleaning
+
+The dataset was prepared and cleaned before analysis by:
 
 * Removing duplicate records.
-* Handling missing values and blank fields.
+* Handling missing and blank values.
 * Standardizing categorical variables.
-* Verifying data consistency.
-* Preparing the dataset for Pivot Tables and Dashboard reporting.
+* Validating data consistency.
+* Preparing data for KPI calculations and dashboard reporting.
 
 ---
 
 # Feature Engineering
 
-To improve analytical insights, several new features were created:
+To improve the analysis, several new features were created.
 
 ## DistanceCategory
 
-Created DistanceCategory feature to classify employees based on their distance from work into:
+Created DistanceCategory feature to classify employees according to their distance from work:
 
 * Very Near
 * Near
@@ -39,7 +41,7 @@ This helped analyze the relationship between commuting distance and employee att
 
 ## Age_Group
 
-Created Age_Group feature to categorize employees into:
+Created Age_Group feature to segment employees into:
 
 * 18-25
 * 26-35
@@ -47,15 +49,15 @@ Created Age_Group feature to categorize employees into:
 * 46-55
 * 55+
 
-This enabled age-based attrition analysis and workforce segmentation.
+This enabled age-based attrition analysis.
 
 ---
 
 ## StabilityIndex
 
-Created StabilityIndex feature to measure employee stability using tenure, promotion history, and managerial experience indicators.
+Created StabilityIndex feature to measure employee stability using tenure, promotions, and managerial experience indicators.
 
-This feature helps identify retention patterns across employees.
+This feature helps identify workforce retention patterns.
 
 ---
 
@@ -63,15 +65,15 @@ This feature helps identify retention patterns across employees.
 
 Created OverallSatisfactionIndex feature by combining employee satisfaction indicators into a single metric.
 
-This provides a broader view of employee engagement and satisfaction levels.
+This provides a broader view of employee engagement and satisfaction.
 
 ---
 
 ## WorkPressureIndex
 
-Created WorkPressureIndex feature to estimate employee workload and workplace pressure factors.
+Created WorkPressureIndex feature to estimate employee workload and work-related pressure factors.
 
-This helps analyze stress-related attrition drivers.
+This supports analysis of stress-related attrition drivers.
 
 ---
 
@@ -81,7 +83,7 @@ Created ServiceTenureRatio feature
 
 to measure employee loyalty relative to career length.
 
-This feature was developed to better understand employee commitment and long-term retention behavior.
+This feature helps evaluate long-term employee commitment and retention behavior.
 
 ---
 
@@ -91,13 +93,13 @@ Created RelativeIncomeIndex feature
 
 to compare employee salary against age and experience profile.
 
-This feature enables a more meaningful comparison of employee compensation across different demographic groups.
+This feature enables fair salary comparison across different employee groups.
 
 ---
 
-# KPI Metrics
+# KPI Dashboard
 
-The dashboard includes the following KPIs:
+The dashboard includes:
 
 * Total Employees
 * Attrition Count
@@ -106,31 +108,25 @@ The dashboard includes the following KPIs:
 * Average Monthly Income
 * Average Years at Company
 
----
-
-# Dashboard Preview
-
-## Dashboard
-
-![Dashboard](hr_attrition_dashboard.png)
-
----
-
-## KPI Summary
+## KPI Preview
 
 ![KPIs](hr_attrition_kpis.png)
 
 ---
 
-## Pivot Tables Analysis
+# Dashboard Visualization
 
-![Pivot Tables](hr_attrition_pivot_tables.png)
+The dashboard was developed using Excel Pivot Charts and KPI Cards to provide interactive HR insights.
+
+## Dashboard Preview
+
+![Dashboard](hr_attrition_dashboard.png)
 
 ---
 
-# Analytical Insights
+# Pivot Table Analysis
 
-The project includes analysis for:
+The following analyses were performed:
 
 * Department vs Attrition
 * Age Group vs Attrition
@@ -142,6 +138,22 @@ The project includes analysis for:
 * Overall Satisfaction Index vs Attrition
 * Relative Income Index vs Attrition
 * Service Tenure Ratio vs Attrition
+
+## Pivot Tables Preview
+
+![Pivot Tables](hr_attrition_pivot_tables.png)
+
+---
+
+# Key Insights
+
+* Employees working overtime tend to show higher attrition rates.
+* Attrition is concentrated within specific age groups.
+* Employee satisfaction is associated with retention behavior.
+* Income level has a noticeable relationship with employee turnover.
+* Distance from work impacts employee attrition patterns.
+* Stability indicators provide strong retention signals.
+* Different departments experience different attrition levels.
 
 ---
 
@@ -159,6 +171,6 @@ The project includes analysis for:
 
 # Author
 
-Sabrin Kater
+**Sabrin Kater**
 
-Excel HR Analytics Project
+HR Attrition Analysis Project using Microsoft Excel.
